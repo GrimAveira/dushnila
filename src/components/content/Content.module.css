@@ -1,0 +1,31 @@
+.contentContainer {
+	display: flex;
+
+	justify-content: space-between;
+
+	margin: 2%;
+}
+.additionalInfo {
+	display: flex;
+
+	justify-content: space-between;
+
+	margin-top: 5%;
+}
+.allMoodContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+@media screen and (max-width: 600px) {
+	.contentContainer {
+		display: block;
+
+		margin: 0;
+	}
+	.additionalInfo {
+		display: block;
+
+		margin-top: 0;
+	}
+}

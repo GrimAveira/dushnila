@@ -1,0 +1,114 @@
+.moodDayContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	width: 17.5vw;
+	height: 62.7vh;
+
+	padding: 0px 2.8%;
+
+	background-color: black;
+
+	border-radius: 20px;
+
+	color: white;
+}
+.p1 {
+	display: block;
+
+	margin-top: 18.6%;
+
+	font-weight: 500;
+	font-size: 3.438rem;
+	line-height: 3.438rem;
+}
+.historyButton {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 15.417vw;
+	height: 10.475vh;
+
+	margin-bottom: 12.16%;
+	padding: 0px 10.137%;
+
+	font-weight: 500;
+	font-size: 1.563rem;
+	line-height: 1.563rem;
+
+	border-radius: 100px;
+
+	background-color: white;
+}
+.historyButton:hover {
+	background-color: black;
+
+	border: white solid 1px;
+
+	color: white;
+
+	fill: white;
+}
+.historyButton:hover .svgArrow path {
+	stroke: white;
+}
+@media screen and (max-width: 600px) {
+	.moodDayContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		width: 100%;
+		height: 297px;
+
+		padding: 9.42%;
+
+		background-color: black;
+
+		border-radius: 0;
+
+		color: white;
+	}
+	.p1 {
+		display: block;
+
+		margin-top: 0;
+
+		font-weight: 500;
+		font-size: 3.438rem;
+		line-height: 3.438rem;
+	}
+	.historyButton {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		width: 296px;
+		height: 63px;
+
+		margin-bottom: 0;
+		padding: 0px 8.7%;
+
+		font-weight: 500;
+		font-size: 1.563rem;
+		line-height: 1.563rem;
+
+		border-radius: 100px;
+
+		background-color: white;
+	}
+	.historyButton:hover {
+		background-color: black;
+
+		border: white solid 1px;
+
+		color: white;
+
+		fill: white;
+	}
+	.historyButton:hover .svgArrow path {
+		stroke: white;
+	}
+}

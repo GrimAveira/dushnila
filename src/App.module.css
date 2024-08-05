@@ -1,0 +1,23 @@
+.title {
+	margin-top: 1%;
+
+	display: flex;
+	justify-content: center;
+
+	letter-spacing: 1.27em;
+	line-height: 1.27em;
+
+	font-weight: 700;
+	font-size: 2.3125rem;
+	text-transform: uppercase;
+}
+@media screen and (max-width: 600px) {
+	.title {
+		margin-top: 7.25%;
+		margin-bottom: 6%;
+
+		font-weight: 700;
+		font-size: 2.313rem;
+		letter-spacing: 0.5em;
+	}
+}

@@ -1,0 +1,26 @@
+.indicatorType {
+	margin-top: 4%;
+
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: 2.5rem;
+}
+.value {
+	font-size: 12.5rem;
+	font-weight: 600;
+	line-height: 9.375rem;
+}
+@media screen and (max-width: 600px) {
+	.indicatorType {
+		margin-top: 3.5%;
+
+		font-size: 2.5rem;
+		font-weight: 700;
+		line-height: 2.5rem;
+	}
+	.value {
+		font-size: 5rem;
+		font-weight: 600;
+		line-height: 5rem;
+	}
+}

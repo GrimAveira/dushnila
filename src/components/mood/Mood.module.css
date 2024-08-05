@@ -1,0 +1,56 @@
+.moodContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	width: 37.136vw;
+	min-height: 80.7vh;
+
+	padding: 60px;
+
+	background-color: #7affa7;
+	border-radius: 20px;
+}
+.p1 {
+	font-weight: 500;
+	font-size: 5.563rem;
+	line-height: 5.563rem;
+}
+.p2 {
+	font-weight: 400;
+	font-size: 2.125rem;
+	line-height: 2.125rem;
+}
+.badMood {
+	background-color: #ff8a7a;
+}
+@media screen and (max-width: 600px) {
+	.moodContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		width: 100%;
+		min-height: 280px;
+
+		padding: 0 9.415%;
+		padding-top: 3.55%;
+		padding-bottom: 9.415%;
+
+		background-color: #7affa7;
+		border-radius: 0;
+	}
+	.p1 {
+		font-weight: 500;
+		font-size: 3.125rem;
+		line-height: 3.125rem;
+	}
+	.p2 {
+		font-weight: 400;
+		font-size: 2.125rem;
+		line-height: 2.125rem;
+	}
+	.badMood {
+		background-color: #ff8a7a;
+	}
+}
