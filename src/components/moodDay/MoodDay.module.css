@@ -4,7 +4,7 @@
 	justify-content: space-between;
 
 	width: 17.5vw;
-	height: 62.7vh;
+	min-height: 42.05vh;
 
 	padding: 0px 2.8%;
 
@@ -29,7 +29,7 @@
 	align-items: center;
 
 	width: 15.417vw;
-	height: 10.475vh;
+	min-height: 7vh;
 
 	margin-bottom: 12.16%;
 	padding: 0px 10.137%;
@@ -61,6 +61,7 @@
 		justify-content: space-between;
 
 		width: 100%;
+		min-height: 0;
 		height: 297px;
 
 		padding: 9.42%;
@@ -86,6 +87,7 @@
 		align-items: center;
 
 		width: 296px;
+		min-height: 0;
 		height: 63px;
 
 		margin-bottom: 0;

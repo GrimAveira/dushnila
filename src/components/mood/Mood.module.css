@@ -4,7 +4,7 @@
 	justify-content: space-between;
 
 	width: 37.136vw;
-	min-height: 80.7vh;
+	min-height: 54.12vh;
 
 	padding: 60px;
 
@@ -31,7 +31,8 @@
 		justify-content: space-between;
 
 		width: 100%;
-		min-height: 280px;
+		min-height: 0;
+		height: 280px;
 
 		padding: 0 9.415%;
 		padding-top: 3.55%;

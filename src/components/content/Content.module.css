@@ -3,7 +3,8 @@
 
 	justify-content: space-between;
 
-	margin: 2%;
+	margin: 0 2.105%;
+	margin-bottom: 1.49%;
 }
 .additionalInfo {
 	display: flex;
