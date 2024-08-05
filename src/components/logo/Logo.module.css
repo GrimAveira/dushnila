@@ -2,7 +2,7 @@
 	position: relative;
 
 	width: 17.5vw;
-	min-height: 62.7vh;
+	min-height: 42.05vh;
 
 	border: solid black 1px;
 	border-radius: 20px;
@@ -20,6 +20,7 @@
 		position: relative;
 
 		width: 100%;
+		min-height: 0;
 		height: 337.45px;
 
 		border: none;
